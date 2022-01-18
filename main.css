@@ -206,3 +206,60 @@ h3 {
 .footer__links a {
     padding-bottom: 15px;
 }
+
+i {
+    padding-left: 5px;
+    font-size: 80%;
+}
+
+.animate__animated.animate__fadeInLeft {
+    animation-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+    animation-duration: 2s;
+}
+
+@media (max-width: 720px) {
+    header, section, form, footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about_image {
+        width: 280px;
+    }
+    .about_sun {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 320px) {
+    header, section, form, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section {
+        margin-top: 50px;
+        margin-bottom: 50px; 
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .form h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about_image {
+        width: 280px;
+    }
+    .about_sun {
+        width: 75px;
+        height: 75px;
+    }
+}
