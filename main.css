@@ -179,7 +179,7 @@ footer {
 
 .footer__container {
     display: flex;
-    justify-content: center; <!---ССЫЛКИ ПОМЕНЯТЬ ЕС ШО--->
+    justify-content: center;
 }
 
 .footer__copyright {
@@ -236,6 +236,13 @@ i {
         width: 75px;
         height: 75px;
     }
+    .about {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -243,13 +250,15 @@ i {
         padding-left: 10px;
         padding-right: 10px;
     }
-    section {
-        margin-top: 50px;
-        margin-bottom: 50px; 
+    .header__logo {
+        height: 20px;
     }
     .about h1 {
         font-size: 36px;
         line-height: 40px;
+    }
+    .form {
+        padding: 50px 10px;
     }
     .form h1 {
         font-size: 36px;
@@ -261,5 +270,15 @@ i {
     .about_sun {
         width: 75px;
         height: 75px;
+    }
+    .about {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    .footer__container {
+        flex-direction: column;
     }
 }
