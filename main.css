@@ -57,6 +57,7 @@ button:hover {
     background: url(img/back.png) no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .about_info {
@@ -234,7 +235,7 @@ i {
 
 .card__logo {
     padding: 35px 40px 25px 40px;
-    border: 1px solid#d9e4e6;
+    border: 1px solid #d9e4e6;
     border-radius: 5px;
 }
 
@@ -293,7 +294,7 @@ i {
 .features__border {
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 1px solid#e6eaf4;
+    border: 1px solid #e6eaf4;
 }
 
 .features__feedback {
@@ -400,6 +401,13 @@ i {
 .promo__button i {
     font-size: 15px;
     margin-left: 5px;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
 @media (max-width: 720px) {
